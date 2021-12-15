@@ -338,7 +338,7 @@ c.symbols = [
       currency_capital: 10,
       strategies: [
         {
-          strategy: 'dip_catcher',
+          strategy: 'noop',
           interval: '15m',
           options: {
             period: '15m'
