@@ -242,7 +242,7 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'SUSHIUSDT',
+    symbol: 'WAVEUSDT',
     exchange: 'binance_futures',
     periods: ['5m', '15m', '1h'],
     trade: {
