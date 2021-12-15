@@ -9,7 +9,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -33,31 +33,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
-          interval: '15m',
-          options: {
-            period: '15m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 1,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'ADAUSDT',
-    exchange: 'binance_futures',
-    periods: ['5m','15m', '1h'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -81,7 +57,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -105,7 +81,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -129,7 +105,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -146,30 +122,6 @@ c.symbols = [
     ]
    },
   {
-    symbol: 'SUSHIUSDT',
-    exchange: 'binance_futures',
-    periods: ['15m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'noop',
-          interval: '15m',
-          options: {
-            period: '15m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 1,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
     symbol: 'CTKUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
@@ -177,7 +129,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -201,7 +153,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -225,7 +177,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -249,7 +201,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -273,7 +225,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -297,7 +249,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -321,7 +273,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
