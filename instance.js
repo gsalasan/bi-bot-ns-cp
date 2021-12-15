@@ -20,7 +20,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -44,7 +44,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -68,7 +68,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -92,7 +92,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -116,7 +116,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -212,7 +212,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -236,7 +236,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.50,
         stop_percent: 5
       }
     ]
@@ -260,7 +260,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
@@ -284,7 +284,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 2.0,
+        target_percent: 1.5,
         stop_percent: 5
       }
     ]
