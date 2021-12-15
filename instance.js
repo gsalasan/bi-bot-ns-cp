@@ -4,15 +4,15 @@ c.symbols = [
   {
     symbol: 'SANDUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -28,15 +28,15 @@ c.symbols = [
   {
     symbol: 'MANAUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -52,15 +52,15 @@ c.symbols = [
   {
     symbol: 'XLMUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -76,15 +76,15 @@ c.symbols = [
   {
     symbol: 'GALAUSDT',
     exchange: 'binance_futures',
-    periods: ['5m','15m', '1h'],
+    periods: ['5m','1m', '1h'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -100,15 +100,15 @@ c.symbols = [
   {
     symbol: 'MATICUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -124,15 +124,15 @@ c.symbols = [
   {
     symbol: 'CTKUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -148,15 +148,15 @@ c.symbols = [
   {
     symbol: 'KEEPUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -172,15 +172,15 @@ c.symbols = [
   {
     symbol: 'NEARUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -196,15 +196,15 @@ c.symbols = [
   {
     symbol: 'ENJUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -220,15 +220,15 @@ c.symbols = [
   {
     symbol: 'REEFUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -244,15 +244,15 @@ c.symbols = [
   {
     symbol: '1000SHIBUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
@@ -268,15 +268,15 @@ c.symbols = [
   {
     symbol: 'BAKEUSDT',
     exchange: 'binance_futures',
-    periods: ['15m'],
+    periods: ['1m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '15m',
+          interval: '1m',
           options: {
-            period: '15m'
+            period: '1m'
           }
         }
       ]
