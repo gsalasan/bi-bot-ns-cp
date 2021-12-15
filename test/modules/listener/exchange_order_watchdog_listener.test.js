@@ -227,7 +227,7 @@ describe('#watchdogs are working', () => {
 
     calls = [];
     await listener.trailingStoplossWatch(fakeExchange, new Position('FOOUSD', 'long', 1, undefined, undefined, 100), {
-      target_percent: 5.0,
+      target_percent: 2.0,
       stop_percent: 1.0
     });
 
@@ -260,7 +260,7 @@ describe('#watchdogs are working', () => {
 
     calls = [];
     await listener.trailingStoplossWatch(fakeExchange, new Position('FOOUSD', 'long', 1, undefined, undefined, 100), {
-      target_percent: 5.0,
+      target_percent: 2.0,
       stop_percent: 1.0
     });
     assert.deepEqual(calls, []);
@@ -280,7 +280,7 @@ describe('#watchdogs are working', () => {
 
     calls = [];
     await listener.trailingStoplossWatch(fakeExchange, new Position('FOOUSD', 'short', -1, undefined, undefined, 100), {
-      target_percent: 5.0,
+      target_percent: 2.0,
       stop_percent: 1.0
     });
 
@@ -313,7 +313,7 @@ describe('#watchdogs are working', () => {
 
     calls = [];
     await listener.trailingStoplossWatch(fakeExchange, new Position('FOOUSD', 'short', -1, undefined, undefined, 100), {
-      target_percent: 5.0,
+      target_percent: 2.0,
       stop_percent: 1.0
     });
 
@@ -337,7 +337,7 @@ describe('#watchdogs are working', () => {
       getOrdersForSymbol: async () => [{ id: 123, amount: 0.5, type: ExchangeOrder.TYPE_TRAILING_STOP }]
     });
     await listener.trailingStoplossWatch(fakeExchange2, new Position('FOOUSD', 'long', 1, undefined, undefined, 100), {
-      target_percent: 5.0,
+      target_percent: 2.0,
       stop_percent: 1.0
     });
 
@@ -366,7 +366,7 @@ describe('#watchdogs are working', () => {
       getOrdersForSymbol: async () => [{ id: 123, amount: 1, type: ExchangeOrder.TYPE_TRAILING_STOP }]
     });
     await listener.trailingStoplossWatch(fakeExchange2, new Position('FOOUSD', 'long', 1, undefined, undefined, 100), {
-      target_percent: 5.0,
+      target_percent: 2.0,
       stop_percent: 1.0
     });
 
