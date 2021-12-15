@@ -20,7 +20,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -44,7 +44,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -68,13 +68,13 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
   },
   {
-    symbol: 'XLMUSDT',
+    symbol: 'XECUSDT',
     exchange: 'binance_futures',
     periods: ['5m', '15m', '1h'],
     trade: {
@@ -92,7 +92,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -116,7 +116,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.25,
+        target_percent: 1.2,
         stop_percent: 5
       }
     ]
@@ -164,13 +164,13 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
   },
   {
-    symbol: 'MATICUSDT',
+    symbol: 'TRXUSDT',
     exchange: 'binance_futures',
     periods: ['5m', '15m', '1h'],
     trade: {
@@ -212,7 +212,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -236,7 +236,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.50,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -260,7 +260,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.25,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -284,7 +284,7 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
         stop_percent: 5
       }
     ]
@@ -308,7 +308,31 @@ c.symbols = [
     watchdogs: [
       {
         name: 'risk_reward_ratio',
-        target_percent: 1.5,
+        target_percent: 1,
+        stop_percent: 5
+      }
+    ]
+  },
+  {
+    symbol: 'ETCUSDT',
+    exchange: 'binance_futures',
+    periods: ['5m', '15m', '1h'],
+    trade: {
+      capital: 1,
+      strategies: [
+        {
+          strategy: 'dip_catcher',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        }
+      ]
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 1,
         stop_percent: 5
       }
     ]
