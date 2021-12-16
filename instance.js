@@ -122,30 +122,6 @@ c.symbols = [
     ]
   },
   {
-    symbol: '1000SHIBUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2.5,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
     symbol: 'BAKEUSDT',
     exchange: 'binance_futures',
     periods: ['1m'],
@@ -213,30 +189,6 @@ c.symbols = [
       {
         name: 'risk_reward_ratio',
         target_percent: 1,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'TRXUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2.5,
         stop_percent: 10.0
       }
     ]
