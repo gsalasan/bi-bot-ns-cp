@@ -4,15 +4,15 @@ c.symbols = [
   {
     symbol: 'SANDUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -28,15 +28,15 @@ c.symbols = [
   {
     symbol: 'MANAUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -52,15 +52,15 @@ c.symbols = [
   {
     symbol: 'CTKUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -76,15 +76,15 @@ c.symbols = [
   {
     symbol: 'KEEPUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -100,15 +100,15 @@ c.symbols = [
   {
     symbol: 'REEFUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -124,15 +124,15 @@ c.symbols = [
   {
     symbol: 'BAKEUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -148,15 +148,15 @@ c.symbols = [
   {
     symbol: 'DODOUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -172,15 +172,15 @@ c.symbols = [
   {
     symbol: 'BNBUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -196,15 +196,15 @@ c.symbols = [
   {
     symbol: 'DOGEUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]
@@ -220,15 +220,15 @@ c.symbols = [
   {
     symbol: 'ADAUSDT',
     exchange: 'binance_futures',
-    periods: ['1m'],
+    periods: ['15m'],
     trade: {
       currency_capital: 100,
       strategies: [
         {
           strategy: 'macd',
-          interval: '1m',
+          interval: '15m',
           options: {
-            period: '1m'
+            period: '15m'
           }
         }
       ]

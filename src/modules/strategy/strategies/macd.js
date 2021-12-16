@@ -93,10 +93,10 @@ module.exports = class Macd {
 
   getOptions() {
     return {
-      period: '1m',
+      period: '15m',
       default_ma_type: 'EMA',
-      fast_period: 12,
-      slow_period: 26,
+      fast_period: 10,
+      slow_period: 30,
       signal_period: 9
     };
   }
