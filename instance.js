@@ -50,30 +50,6 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'BAKEUSDT',
-    exchange: 'binance_futures',
-    periods: ['15m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'noop',
-          interval: '15m',
-          options: {
-            period: '15m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
     symbol: 'DODOUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
