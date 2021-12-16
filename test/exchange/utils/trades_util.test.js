@@ -140,7 +140,7 @@ describe('#trades utils', function() {
     assert.notStrictEqual(position.time, undefined);
   });
 
-  it('test outdated trade is possible a closed trade and should not provide a position entry', () => {
+  it('test outdated trade is possible a  trade and should not provide a position entry', () => {
     const trades = [
       {
         side: 'buy',

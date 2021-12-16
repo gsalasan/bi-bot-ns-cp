@@ -50,78 +50,6 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'XLMUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2.5,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'GALAUSDT',
-    exchange: 'binance_futures',
-    periods: ['5m','1m', '1h'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2.5,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'MATICUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
-      }
-    ]
-   },
-  {
     symbol: 'CTKUSDT',
     exchange: 'binance_futures',
     periods: ['1m'],
@@ -165,54 +93,6 @@ c.symbols = [
       {
         name: 'risk_reward_ratio',
         target_percent: 2.5,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'NEARUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'ENJUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2,
         stop_percent: 10.0
       }
     ]
@@ -309,30 +189,6 @@ c.symbols = [
       {
         name: 'risk_reward_ratio',
         target_percent: 2.5,
-        stop_percent: 10.0
-      }
-    ]
-  },
-  {
-    symbol: 'EOSUSDT',
-    exchange: 'binance_futures',
-    periods: ['1m'],
-    trade: {
-      currency_capital: 100,
-      strategies: [
-        {
-          strategy: 'macd',
-          interval: '1m',
-          options: {
-            period: '1m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 2,
         stop_percent: 10.0
       }
     ]
