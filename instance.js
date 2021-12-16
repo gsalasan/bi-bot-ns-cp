@@ -194,7 +194,7 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'DOGEUSDT',
+    symbol: 'NEOUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
     trade: {
