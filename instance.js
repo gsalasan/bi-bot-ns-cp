@@ -146,30 +146,6 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'BNBUSDT',
-    exchange: 'binance_futures',
-    periods: ['15m'],
-    trade: {
-      capital: 1,
-      strategies: [
-        {
-          strategy: 'noop',
-          interval: '15m',
-          options: {
-            period: '15m'
-          }
-        }
-      ]
-    },
-    watchdogs: [
-      {
-        name: 'risk_reward_ratio',
-        target_percent: 0.5,
-        stop_percent: 5
-      }
-    ]
-  },
-  {
     symbol: 'MATICUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
