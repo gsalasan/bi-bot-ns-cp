@@ -75,7 +75,7 @@ module.exports = class {
       const number = Math.floor(Math.random() * diceSize) + 1;
       emptySignal.addDebug('message', `${number}`);
       if (number === dice) {
-        const longOrShort = Math.random() > 0.5 ? 'long' : 'short';
+        const longOrShort = Math.random() > 0.5 ? 'short' : 'long';
         emptySignal.setSignal(longOrShort);
       }
     }
