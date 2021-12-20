@@ -120,7 +120,7 @@ c.symbols = [
         stop_percent: 5
       }
     ]
-  // },
+  },
   // {
   //   symbol: 'DOTUSDT',
   //   exchange: 'binance_futures',
