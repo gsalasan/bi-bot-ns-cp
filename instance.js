@@ -25,30 +25,30 @@ c.symbols = [
   //     }
   //   ]
   // },
-  // {
-  //   symbol: 'MANAUSDT',
-  //   exchange: 'binance_futures',
-  //   periods: ['15m'],
-  //   trade: {
-  //     currency_capital: 100,
-  //     strategies: [
-  //       {
-  //         strategy: 'noop',
-  //         interval: '15m',
-  //         options: {
-  //           period: '15m'
-  //         }
-  //       }
-  //     ]
-  //   },
-  //   watchdogs: [
-  //     {
-  //       name: 'risk_reward_ratio',
-  //       target_percent: 1.5,
-  //       stop_percent: 5
-  //     }
-  //   ]
-  // },
+  {
+    symbol: 'MANAUSDT',
+    exchange: 'binance_futures',
+    periods: ['15m'],
+    trade: {
+      currency_capital: 100,
+      strategies: [
+        {
+          strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        }
+      ]
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 1.5,
+        stop_percent: 5
+      }
+    ]
+  },
   // {
   //   symbol: 'ADAUSDT',
   //   exchange: 'binance_futures',
@@ -97,29 +97,29 @@ c.symbols = [
   //     }
   //   ]
   // },
-  // {
-  //   symbol: 'GALAUSDT',
-  //   exchange: 'binance_futures',
-  //   periods: ['15m'],
-  //   trade: {
-  //     currency_capital: 100,
-  //     strategies: [
-  //       {
-  //         strategy: 'noop',
-  //         interval: '15m',
-  //         options: {
-  //           period: '15m'
-  //         }
-  //       }
-  //     ]
-  //   },
-  //   watchdogs: [
-  //     {
-  //       name: 'risk_reward_ratio',
-  //       target_percent: 1.5,
-  //       stop_percent: 5
-  //     }
-  //   ]
+  {
+    symbol: 'GALAUSDT',
+    exchange: 'binance_futures',
+    periods: ['15m'],
+    trade: {
+      currency_capital: 100,
+      strategies: [
+        {
+          strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        }
+      ]
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 1.5,
+        stop_percent: 5
+      }
+    ]
   // },
   // {
   //   symbol: 'DOTUSDT',
