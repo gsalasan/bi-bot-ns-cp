@@ -9,7 +9,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -177,7 +177,7 @@ c.symbols = [
       currency_capital: 100,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
@@ -201,7 +201,7 @@ c.symbols = [
       currency_capital: 200,
       strategies: [
         {
-          strategy: 'noop',
+          strategy: 'macd',
           interval: '15m',
           options: {
             period: '15m'
