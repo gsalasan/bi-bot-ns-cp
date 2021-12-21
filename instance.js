@@ -98,7 +98,7 @@ c.symbols = [
   //   ]
   // },
   {
-    symbol: 'GALAUSDT',
+    symbol: 'BNBUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
     trade: {
@@ -170,7 +170,7 @@ c.symbols = [
   //   ]
   // },
   {
-    symbol: 'ALICEUSDT',
+    symbol: 'ETCUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
     trade: {
@@ -194,7 +194,7 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'DYDXUSDT',
+    symbol: 'LTCUSDT',
     exchange: 'binance_futures',
     periods: ['15m'],
     trade: {
