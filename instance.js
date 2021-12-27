@@ -160,15 +160,15 @@ c.symbols = [
           }
         }
       ]
-    }//,
-  //   watchdogs: [
-  //     {
-  //       name: 'risk_reward_ratio',
-  //       target_percent: 2.5,
-  //       stop_percent: 5
-  //     }
-  //   ]
-  // },
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 2.5,
+        stop_percent: 5
+      }
+    ]
+  }//,
   // {
   //   symbol: 'ETCUSDT',
   //   exchange: 'binance_futures',
