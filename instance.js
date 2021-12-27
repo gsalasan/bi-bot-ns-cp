@@ -49,78 +49,78 @@ c.symbols = [
       }
     ]
   },
-  // {
-  //   symbol: 'ADAUSDT',
-  //   exchange: 'binance_futures',
-  //   periods: ['15m'],
-  //   trade: {
-  //     currency_capital: 100,
-  //     strategies: [
-  //       {
-  //         strategy: 'noop',
-  //         interval: '15m',
-  //         options: {
-  //           period: '15m'
-  //         }
-  //       }
-  //     ]
-  //   },
-  //   watchdogs: [
-  //     {
-  //       name: 'risk_reward_ratio',
-  //       target_percent: 2.5,
-  //       stop_percent: 5
-  //     }
-  //   ]
-  // },
-  // {
-  //   symbol: 'XLMUSDT',
-  //   exchange: 'binance_futures',
-  //   periods: ['15m'],
-  //   trade: {
-  //     currency_capital: 100,
-  //     strategies: [
-  //       {
-  //         strategy: 'noop',
-  //         interval: '15m',
-  //         options: {
-  //           period: '15m'
-  //         }
-  //       }
-  //     ]
-  //   },
-  //   watchdogs: [
-  //     {
-  //       name: 'risk_reward_ratio',
-  //       target_percent: 2.5,
-  //       stop_percent: 5
-  //     }
-  //   ]
-  // },
-  // {
-  //   symbol: 'BNBUSDT',
-  //   exchange: 'binance_futures',
-  //   periods: ['15m'],
-  //   trade: {
-  //     currency_capital: 100,
-  //     strategies: [
-  //       {
-  //         strategy: 'macd',
-  //         interval: '15m',
-  //         options: {
-  //           period: '15m'
-  //         }
-  //       }
-  //     ]
-  //   },
-  //   watchdogs: [
-  //     {
-  //       name: 'risk_reward_ratio',
-  //       target_percent: 1,
-  //       stop_percent: 5
-  //     }
-  //   ]
-  // },
+  {
+    symbol: 'FTTBUSD',
+    exchange: 'binance_futures',
+    periods: ['15m'],
+    trade: {
+      currency_capital: 100,
+      strategies: [
+        {
+          strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        }
+      ]
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 2.5,
+        stop_percent: 5
+      }
+    ]
+  },
+  {
+    symbol: 'BNBBUSD',
+    exchange: 'binance_futures',
+    periods: ['15m'],
+    trade: {
+      currency_capital: 100,
+      strategies: [
+        {
+          strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        }
+      ]
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 2.5,
+        stop_percent: 5
+      }
+    ]
+  },
+  {
+    symbol: 'ETHBUSD',
+    exchange: 'binance_futures',
+    periods: ['15m'],
+    trade: {
+      currency_capital: 100,
+      strategies: [
+        {
+          strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        }
+      ]
+    },
+    watchdogs: [
+      {
+        name: 'risk_reward_ratio',
+        target_percent: 1,
+        stop_percent: 5
+      }
+    ]
+  },
   // {
   //   symbol: 'DOTUSDT',
   //   exchange: 'binance_futures',
