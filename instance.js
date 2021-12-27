@@ -26,7 +26,7 @@ c.symbols = [
     ]
   },
   {
-    symbol: 'MANAUSDT',
+    symbol: 'XRPBUSD',
     exchange: 'binance_futures',
     periods: ['15m'],
     trade: {
@@ -146,7 +146,7 @@ c.symbols = [
   //   ]
   // },
   {
-    symbol: 'MATICUSDT',
+    symbol: 'ADABUSD',
     exchange: 'binance_futures',
     periods: ['15m'],
     trade: {
