@@ -56,13 +56,13 @@ module.exports = class Macd {
 
     if (long) {
       // long
-      if (before < 0 && current > 0) {
+      if (before > 0 && current < 0) {
         return SignalResult.createSignal('long', debug);
       }
     } else {
       // short
 
-      if (before > 0 && current < 0) {
+      if (before < 0 && current > 0) {
         return SignalResult.createSignal('short', debug);
       }
     }
