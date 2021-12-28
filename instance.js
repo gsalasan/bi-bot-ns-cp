@@ -14,6 +14,13 @@ c.symbols = [
           options: {
             period: '15m'
           }
+        },
+        {
+          strategy: 'noop',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
         }
       ]
     },
@@ -34,6 +41,13 @@ c.symbols = [
       strategies: [
         {
           strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        },
+        {
+          strategy: 'noop',
           interval: '15m',
           options: {
             period: '15m'
@@ -62,6 +76,13 @@ c.symbols = [
           options: {
             period: '15m'
           }
+        },
+        {
+          strategy: 'noop',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
         }
       ]
     },
@@ -86,6 +107,13 @@ c.symbols = [
           options: {
             period: '15m'
           }
+        },
+        {
+          strategy: 'noop',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
         }
       ]
     },
@@ -106,6 +134,13 @@ c.symbols = [
       strategies: [
         {
           strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        },
+        {
+          strategy: 'noop',
           interval: '15m',
           options: {
             period: '15m'
@@ -154,6 +189,13 @@ c.symbols = [
       strategies: [
         {
           strategy: 'macd',
+          interval: '15m',
+          options: {
+            period: '15m'
+          }
+        },
+        {
+          strategy: 'noop',
           interval: '15m',
           options: {
             period: '15m'
