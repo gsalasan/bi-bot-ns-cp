@@ -22,6 +22,13 @@ z.forEach((pair) => {
                     }
                 },
                 {
+                  strategy: 'cci_macd',
+                  interval: '15m',
+                  options: {
+                      period: '15m'
+                  }
+                },
+                {
                     strategy: 'obv_pump_dump',
                     interval: '15m',
                 },
