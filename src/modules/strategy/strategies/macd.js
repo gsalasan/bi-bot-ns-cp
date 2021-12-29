@@ -50,8 +50,8 @@ module.exports = class Macd {
     const before = macd[1].histogram;
 
     // trend change
-    if (lastSignal === 'long' || lastSignal === 'short')  {
-      return SignalResult.createSignal('close', debug);
+    if ((lastSignal === 'long' && before > 0 && current < 0) || (lastSignal === 'short' && before < 0 && current > 0)) {
+      return true //SignalResult.createSignal('close', debug);
     }
 
     if (long) {
@@ -90,6 +90,7 @@ module.exports = class Macd {
       }
     ];
   }
+
 
   getOptions() {
     return {
