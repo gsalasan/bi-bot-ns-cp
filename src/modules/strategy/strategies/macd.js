@@ -91,7 +91,6 @@ module.exports = class Macd {
     ];
   }
 
-
   getOptions() {
     return {
       period: '15m',
