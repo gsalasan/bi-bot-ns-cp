@@ -33,13 +33,6 @@ z.forEach((pair) => {
                     interval: '15m',
                 },
                 {
-                    strategy: 'macd',
-                    interval: '15m',
-                    options: {
-                        period: '15m'
-                    }
-                },
-                {
                     strategy: 'noop',
                     interval: '15m',
                     options: {
