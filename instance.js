@@ -9,7 +9,7 @@ let z = [
 z.forEach((pair) => {
     c.symbols.push({
         symbol: pair,
-        periods: ['5m', '15m', '45m','1h'],
+        periods: ['5m', '15m','1h'],
         exchange: 'binance_futures',
         trade: {
             currency_capital: 100,
@@ -34,9 +34,9 @@ z.forEach((pair) => {
                 },
                 {
                     strategy: 'macd',
-                    interval: '45m',
+                    interval: '15m',
                     options: {
-                        period: '45m'
+                        period: '15m'
                     }
                 },
                 {
