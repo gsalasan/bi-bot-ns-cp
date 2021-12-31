@@ -3,7 +3,7 @@ const c = (module.exports = {});
 c.symbols = []
 
 let z = [
-  'NEARUSDT'
+  'NEARUSDT',  'EOSUSDT', 'ETCUSDT', 'LINKUSDT'
 ]
 
 z.forEach((pair) => {
