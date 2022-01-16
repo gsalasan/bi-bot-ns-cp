@@ -15,14 +15,7 @@ z.forEach((pair) => {
             currency_capital: 100,
             strategies: [
                 {
-                    strategy: 'macd',
-                    interval: '15m',
-                    options: {
-                        period: '15m'
-                    }
-                },
-                {
-                    strategy: 'noop',
+                    strategy: 'dip_catcher',
                     interval: '15m',
                     options: {
                         period: '15m'
