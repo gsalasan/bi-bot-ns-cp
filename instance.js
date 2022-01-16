@@ -3,8 +3,7 @@ const c = (module.exports = {});
 c.symbols = []
 
 let z = [
-  'NEARUSDT',  'EOSUSDT', 'ETCUSDT', 'LINKUSDT'
-]
+  'NEARUSDT',  'EOSUSDT', 
 
 z.forEach((pair) => {
     c.symbols.push({
@@ -15,22 +14,11 @@ z.forEach((pair) => {
             currency_capital: 100,
             strategies: [
                 {
-                    strategy: 'cci',
+                    strategy: 'macd',
                     interval: '15m',
                     options: {
                         period: '15m'
                     }
-                },
-                {
-                  strategy: 'cci_macd',
-                  interval: '15m',
-                  options: {
-                      period: '15m'
-                  }
-                },
-                {
-                    strategy: 'obv_pump_dump',
-                    interval: '15m',
                 },
                 {
                     strategy: 'noop',
