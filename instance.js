@@ -4,6 +4,7 @@ c.symbols = []
 
 let z = [
   'NEARUSDT',  'EOSUSDT', 
+]
 
 z.forEach((pair) => {
     c.symbols.push({
